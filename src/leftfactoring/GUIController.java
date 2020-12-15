@@ -45,7 +45,7 @@ public class GUIController implements Initializable {
         System.out.println("Input : " + line);
         //Input : S=iEtS|iEtSes|a  1st iteration
         System.out.println("LEFT FACTORING : ");
-        output.appendText("LEFT FACTORING : ");
+        output.setText("LEFT FACTORING : ");
         StringTokenizer tokenizer = new StringTokenizer(line, "=|");
         // split grammmer on the base of equal and or operator or both
 
